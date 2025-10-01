@@ -20,9 +20,9 @@ const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
-  // Increment the counter
+  //logic update
   counter++;
-  // Update the UI
+  //ui update
   counterElement.textContent = counter.toString();
   console.log("Counter is now:", counter);
 });
